@@ -1,7 +1,8 @@
-# pdf_viewer_flutter
 # PDF Viewer Flutter
 
-A plugin/package for Flutter for Android and iOS app!
+A plugin/package for Flutter for Android and iOS, Web, Mac, Linux and Windows app!
+
+[![pub package](https://img.shields.io/pub/v/pdf_viewer_flutter.svg)](https://pub.dev/packages/pdf_viewer_flutter)
 
 ### 1. Installation
 

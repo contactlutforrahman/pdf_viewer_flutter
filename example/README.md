@@ -1,6 +1,6 @@
-# pdf_viewer_flutter_example
+# example
 
-Demonstrates how to use the pdf_viewer_flutter plugin.
+A new Flutter project.
 
 ## Getting Started
 

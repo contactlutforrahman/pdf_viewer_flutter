@@ -1,6 +1,6 @@
 name: pdf_viewer_flutter
 description: A flutter plugin/package to view PDF files.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/contactlutforrahman/pdf_viewer_flutter
 
 environment:
