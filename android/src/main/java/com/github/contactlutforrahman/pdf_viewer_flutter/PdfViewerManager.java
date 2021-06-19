@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import com.github.barteksc.pdfviewer;
+import com.github.barteksc.pdfviewer.PDFView;
 
 import java.io.File;
 
@@ -50,7 +50,7 @@ class PdfViewerManager {
         }
 
         closed = true;
-        FlutterFullPdfViewerPlugin.channel.invokeMethod("onDestroy", null);
+        PdfViewerFlutterPlugin.channel.invokeMethod("onDestroy", null);
     }
 
     void close() {

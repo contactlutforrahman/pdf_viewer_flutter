@@ -10,8 +10,11 @@ Add this to your project's pubspec.yaml file:
 
 
 ```
+
 dependencies:
-  pdf_viewer_flutter: ^1.0.0
+  pdf_viewer_flutter: ^1.0.2
+  path_provider: any
+
 ```
 
 and run
@@ -26,7 +29,13 @@ or
 
 write 
 
-``` flutter pub add pdf_viewer_flutter ```
+``` 
+
+flutter pub add pdf_viewer_flutter
+
+flutter pub add path_provider
+
+```
 
 in the terminal inside your project and hit enter
 
@@ -60,6 +69,7 @@ After that you have to add ndk filters to your release config:
 ### 3. Usage
 
 ```
+
 import 'dart:async';
 import 'dart:io';
 

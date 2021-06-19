@@ -32,7 +32,7 @@ public class PdfViewerFlutterPlugin implements MethodCallHandler, PluginRegistry
    * Plugin registration.
    */
   public static void registerWith(Registrar registrar) {
-    channel = new MethodChannel(registrar.messenger(), "flutter_full_pdf_viewer");
+    channel = new MethodChannel(registrar.messenger(), "pdf_viewer_flutter");
     final PdfViewerFlutterPlugin instance = new PdfViewerFlutterPlugin(registrar.activity());
     registrar.addActivityResultListener(instance);
     channel.setMethodCallHandler(instance);

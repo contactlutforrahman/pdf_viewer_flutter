@@ -28,3 +28,7 @@ android {
         minSdkVersion 16
     }
 }
+
+dependencies {
+    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
+}

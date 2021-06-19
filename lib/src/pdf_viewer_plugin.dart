@@ -45,7 +45,7 @@ class PDFViewerPlugin {
   /// adds the plugin as ActivityResultListener
   /// Only needed and used on Android
   Future registerActivityResultListener() =>
-      _channel.invokeMethod('registerActivityResultListener');
+      _channel.invokeMethod('invokeMethod');
 
   /// removes the plugin as ActivityResultListener
   /// Only needed and used on Android
